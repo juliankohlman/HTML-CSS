@@ -1,0 +1,23 @@
+@import './components/Menu.css';
+/*@import './components/untitled.css';*/
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  box-sizing: border-box;
+  background: #63ADFF;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  /*padding: 25px;*/
+}
+
+@media all and (max-width: 1000px) {
+
+}
+
+@media all and (max-width: 500px) {
+
+}
