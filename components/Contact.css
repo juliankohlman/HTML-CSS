@@ -1,0 +1,14 @@
+.Contact {
+  display: flex;
+  margin: 0 auto;
+  padding: 15px;
+  background: #FF845F;
+  /*justify-content: center;*/
+  flex-direction: column;
+  height: 225px;
+}
+
+.Contact h1 {
+  margin: 8px;
+  padding-left: 5px;
+}

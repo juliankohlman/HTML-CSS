@@ -4,12 +4,7 @@
   margin: 0px;
   padding: 4px;
   display: flex;
-  align-items: center;
-}
-
-.Flex-menu .Menu__item {
-  /*flex: 2.75;*/
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 /*.Flex-menu .Social__item {
@@ -17,10 +12,14 @@
 }*/
 
 .Flex-menu a {
-  display: flex;
-  justify-content: center;
-  color: #fff;
+  color: #32567F;
   text-decoration: none;
+  padding: 10px 5px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  transition: all 0.5s;
+  font-size: 25px;
 }
 
 .Flex-menu a:hover {

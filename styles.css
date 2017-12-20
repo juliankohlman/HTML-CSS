@@ -1,17 +1,23 @@
 @import './components/Menu.css';
-/*@import './components/untitled.css';*/
+@import './components/Name.css';
+@import './components/Welcome.css';
+@import './components/About.css';
+@import './components/Projects.css';
+@import './components/Contact.css';
+
+
 
 body {
   font-family: 'Quicksand', sans-serif;
   box-sizing: border-box;
-  background: #63ADFF;
+  /*background: #63ADFF;*/
   margin: 0;
 }
 
 .wrapper {
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: 0 auto;
-  /*padding: 25px;*/
+  /*padding: 5px;*/
 }
 
 @media all and (max-width: 1000px) {
