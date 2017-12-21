@@ -1,10 +1,10 @@
 .Projects {
   display: flex;
-  margin: 0 auto;
+  /*margin: 0 auto;*/
   padding: 15px;
   background: #1EB28B;
-  justify-content: center;
-  flex-direction: column;
+  /*justify-content: center;*/
+  flex-direction: row;
   justify-content: space-between;
   height: 225px;
 }
@@ -12,8 +12,8 @@
 .Project__Container {
   display: flex;
   flex-direction: row;
-  /*padding: 10px;*/
-  justify-content: space-between;
+  padding: 10px;
+  justify-content: space-around;
 }
 
 .Projects h1 {
@@ -22,13 +22,13 @@
 }
 
 .Projects .Project__Cover {
+  display: flex;
   background: #CC694C;
   padding: 5px;
   width: 200px;
   height: 150px;
   margin-top: 10px;
-  /*align-self: flex-end;*/
-  /*justify-content: flex-start;*/
+
 
   line-height: 150px;
   color: white;

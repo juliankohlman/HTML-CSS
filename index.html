@@ -17,9 +17,9 @@
         <ul>
           <!-- Menu block__elements -->
           <li><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact Me</a></li>
+          <li><a href="#About">About Me</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#Contact">Contact Me</a></li>
 <!--           <li class="Social__item">
             <a href="http://twitter.com"><i class="fa fa-twitter"></i></a>
           </li>
@@ -38,7 +38,7 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. In rhoncus, purus a fermentum molestie, felis mi ullamcorper enim, non laoreet nisl leo at orci. In pellentesque, augue ut tincidunt gravida, odio justo ornare elit, aliquam sagittis nisi leo ut leo. Nam lacinia elementum felis, nec porttitor mi rutrum et. In pellentesque, augue ut tincidunt gravida, odio justo ornare elit, aliquam sagittis nisi leo ut leo. Nam lacinia elementum felis, nec porttitor mi rutrum et.
         </p>
       </section>
-      <section class="About">
+      <section id="About" class="About">
         <h1>About Me</h1>
         <div class="image-placeholder">
           Image
@@ -49,7 +49,7 @@
 
       </section>
       <!-- use columns -->
-      <section class="Projects">
+      <section id="Projects" class="Projects">
         <h1>Projects</h1>
           <section class="Project__Container">
             <div class="Project__Cover">
@@ -64,8 +64,23 @@
           </section>
       </section>
       <!-- add Github-Twitter-LinkedIn -->
-      <section class="Contact">
+      <section id="Contact" class="Contact">
+
         <h1>Contact</h1>
+        <form class="Contact-Form">
+          <div class="cf__Left">
+            <input type="text" class="input" placeholder="Name">
+            <input type="email" class="input" placeholder="Email address">
+            <input type="text" class="input" placeholder="Subject">
+          </div>
+
+          <div class="cf__Right">
+            <textarea name="message" type="text" class="input-message" placeholder="Message"></textarea>
+          </div>
+          <input type="submit" value="Submit" class="input-submit">
+
+        </form>
+
       </section>
       <footer class="Footer">
         Footer

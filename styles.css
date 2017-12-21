@@ -9,16 +9,24 @@
 
 body {
   font-family: 'Quicksand', sans-serif;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
   /*background: #63ADFF;*/
   margin: 0;
 }
 
 .wrapper {
+  display: flex;
+  flex-direction: column;
   /*max-width: 1000px;*/
-  margin: 0 auto;
+  margin: 0;
   /*padding: 5px;*/
 }
+
+.Footer {
+  color: #fff;
+  background-color: black;
+}
+
 
 @media all and (max-width: 1000px) {
 
